@@ -38,6 +38,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	background-color: var(--primary-black-color);
+	font-family: 'Inter', sans-serif;
 }
 ol, ul {
 	list-style: none;

@@ -1,0 +1,12 @@
+.nav{
+    display: flex;
+    color: var(--text-color);
+}
+
+li{
+    margin-right: 41px;
+}
+
+li:last-child{
+    margin-right: 0px;
+}
