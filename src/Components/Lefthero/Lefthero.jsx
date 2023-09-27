@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Lefthero.module.css";
+import { ReactComponent as MeassgaeIcon } from "../../Assets/meassge.svg";
 
 const lefthero = () => {
   return (
@@ -13,7 +14,15 @@ const lefthero = () => {
         curabitur sodales conubia ut inceptos faucibus himenaeos tortor eget,
         hac massa gravida arcu interdum proin curae.
       </p>
-      
+      <div className={styles.enteremailbtn}>
+        <div className={styles.subwrapper}>
+          <MeassgaeIcon style={{opacity:"30%",paddingLeft:"26px", paddingTop:"26px", marginRight:"12px"}}/>
+          <input type="text" className={styles.emailinput} placeholder="Enter your email address" />
+        </div>
+        <div className={styles.letsTalkBtn}>
+          <button>Lets talk</button>
+        </div>
+      </div>
     </div>
   );
 };

@@ -22,5 +22,54 @@ p{
     opacity: 30%;
 }
 
+.enteremailbtn{
+    width: 438px;
+    height: 74px;
+    background-color: var(--secondary-color);
+    border-radius: 43px;
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subwrapper{
+    display: flex;
+}
+
+.emailinput{
+    background-color: var(--secondary-color);
+    border: none;
+    width: 190px;
+    color:white;
+    outline: none;
+}
+
+.emailinput::placeholder{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.letsTalkBtn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+button{
+    width: 137px;
+    height: 62px;
+    border-radius: 43px;
+    background-color: var(--primary-yello-color);
+    font-size: 16px;
+    color:var(--primary-black-color);
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
 
 
