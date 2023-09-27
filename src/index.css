@@ -39,6 +39,7 @@ body {
 	line-height: 1;
 	background-color: var(--primary-black-color);
 	font-family: 'Inter', sans-serif;
+	color:var(--text-color)
 }
 ol, ul {
 	list-style: none;

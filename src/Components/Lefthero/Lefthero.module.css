@@ -1,0 +1,26 @@
+.emailbtn{
+    width: 438px;
+    height: 74px;
+}
+
+.herotextsmall{
+    font-size: 66px;
+    font-weight: 500;
+}
+
+.herotextBig{
+    font-size: 66px;
+    font-weight: 700;
+    margin-top: 35px;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 46px;
+    width: 560px;
+    opacity: 30%;
+}
+
+
+
