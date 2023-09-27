@@ -10,8 +10,8 @@ h2{
 }
 
 .wrapper{
-    padding-left: 87px;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
 }
 

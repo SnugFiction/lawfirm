@@ -3,4 +3,10 @@
     font-weight: 600;
     width: 387px;
     line-height: 87.22px;
+    padding-right: 183px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
 }

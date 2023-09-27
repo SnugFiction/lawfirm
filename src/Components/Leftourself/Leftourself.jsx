@@ -3,7 +3,7 @@ import styles from "./Leftourself.module.css"
 
 const Leftourself = () => {
   return (
-    <div>
+    <div className={styles.wrapper}>
       <h1 className={styles.boldheading}>Let’s Introduce Ourself</h1>
     </div>
   );
