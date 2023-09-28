@@ -1,6 +1,7 @@
 import "./App.css";
 import Areaofpractice from "./Components/Areaofpractice/Areaofpractice";
 import Carousel from "./Components/Carousel/Carousel";
+import Faq from "./Components/Faq/Faq";
 import Header from "./Components/Header/Header";
 import Heroarea from "./Components/Heroarea/Heroarea";
 import Our from "./Components/Our/Our";
@@ -28,6 +29,9 @@ function App() {
        </div>
        <div className="Section6">
             <Our/>
+       </div>
+       <div className="Section7">
+        <Faq/>
        </div>
     </div>
   );

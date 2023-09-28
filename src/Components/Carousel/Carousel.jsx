@@ -128,7 +128,7 @@ const Carousel = () => {
               <p className={styles.cardposition}>Ceo of Hunt</p>
               <p className={styles.cardpara}>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequatduis enim velit mollit Exer.
+                amet sint. Velit officia consequatduis enim velit mollit Exer.git
                 sit aliqua dolor do amet sint. Velit officia
               </p>
             </div>
