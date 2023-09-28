@@ -1,0 +1,70 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 1132px;
+    margin: 0 auto;
+    gap: 104px;
+}
+
+.subwrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading{
+    font-size: 54px;
+    font-weight: 600;
+    width: 374px;
+    line-height: 77.23px;
+}
+
+.cardWrapper{
+    width: 359px;
+    height: 368px;
+    border: 1px solid #2E2E2E;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgeContainer{
+    width: 105px;
+    height: 102px;
+    border-radius: 100%;
+    background: url(https://s3-alpha-sig.figma.com/img/8fe7/ad6b/85c053224d98bfd7e680608c07f3c239?Expires=1696809600&Signature=eUKYGBP9Mof~gk6RhIluOmwC-khpYFR0KxIXGvMthHszHXe12aYZpcafIlAdLWUs3wHyofccM7mlM7seKBx-OCOhu9r0bFJxNxRXxMxwNhhLgfnS9TxSIGmGkBRPI72DMxKKM7K14hTcPsYmnbxchjex38zx3QE-sRx8nsk4zRbvh1O1~2oDzD-V4ODVzt2sgdeFqXaNwo9X3VaA89oqKY3ZCs1cKO4Qi2CLF-QX1eRkOiwzPYwsISHepxMbR4iFmPVUsk92KhSc2-oXadVpv83MVZ8TKQmV4Recbrk4IAfEzr0AuQXUbYyXf4FnJP3lJ7Sjk~ziE~1b7lr2KatqGg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 105px 102px;
+    margin-top: 36px;
+    margin-left: 26px;
+}
+
+.cardheading{
+    margin-left: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 24px;
+    line-height: 24px;
+}
+
+.cardposition{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 26px;
+    line-height: 24px;
+}
+
+.cardpara{
+    width: 293px;
+    height: 92px;
+    margin-left: 26px;
+    margin-top: 22px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.75px;
+word-wrap: break-word
+}
+
+

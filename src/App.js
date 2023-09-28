@@ -1,5 +1,6 @@
 import "./App.css";
 import Areaofpractice from "./Components/Areaofpractice/Areaofpractice";
+import Carousel from "./Components/Carousel/Carousel";
 import Header from "./Components/Header/Header";
 import Heroarea from "./Components/Heroarea/Heroarea";
 import Ourself from "./Components/Ourself/Ourself";
@@ -20,6 +21,9 @@ function App() {
        </div>
        <div className="Section4">
          <Areaofpractice/>
+       </div>
+       <div className="Section5">
+        <Carousel/>
        </div>
     </div>
   );
