@@ -28,6 +28,10 @@
     flex-direction: column;
 }
 
+.cardWrapper:hover{
+    background-color: #2E2E2E;
+}
+
 .imgeContainer{
     width: 105px;
     height: 102px;

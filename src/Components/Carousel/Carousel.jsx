@@ -31,9 +31,6 @@ const Carousel = () => {
        
      // eslint-disable-next-line react-hooks/exhaustive-deps
      },[nextbtn,prevbtn]);
-     
-
-   
   }
 
   return (
@@ -60,11 +57,12 @@ const Carousel = () => {
           navigation={true}
           modules={[Pagination, Navigation]}
           className="mySwiper"
+          initialSlide="0"
         >
 
           <Control nextbtn={getnextbtn} prevbtn={getprevbtn} setnextbtn={setnextbtn} setprevbtn={setprevbtn} />
           <SwiperSlide>
-            <div className={styles.cardWrapper}>
+            <div className={styles.cardWrapper} id="0">
               <div className={styles.imgeContainer}></div>
               <h2 className={styles.cardheading}>Jane Cooper</h2>
               <p className={styles.cardposition}>Ceo of Hunt</p>
@@ -76,7 +74,7 @@ const Carousel = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className={styles.cardWrapper}>
+            <div className={styles.cardWrapper} id="1">
               <div className={styles.imgeContainer}></div>
               <h2 className={styles.cardheading}>Jane Cooper</h2>
               <p className={styles.cardposition}>Ceo of Hunt</p>
@@ -88,7 +86,7 @@ const Carousel = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className={styles.cardWrapper}>
+            <div className={styles.cardWrapper} id="2">
               <div className={styles.imgeContainer}></div>
               <h2 className={styles.cardheading}>Jane Cooper</h2>
               <p className={styles.cardposition}>Ceo of Hunt</p>
@@ -100,7 +98,7 @@ const Carousel = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className={styles.cardWrapper}>
+            <div className={styles.cardWrapper} id="3">
               <div className={styles.imgeContainer}></div>
               <h2 className={styles.cardheading}>Jane Cooper</h2>
               <p className={styles.cardposition}>Ceo of Hunt</p>
@@ -112,7 +110,7 @@ const Carousel = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className={styles.cardWrapper}>
+            <div className={styles.cardWrapper} id="4">
               <div className={styles.imgeContainer}></div>
               <h2 className={styles.cardheading}>Jane Cooper</h2>
               <p className={styles.cardposition}>Ceo of Hunt</p>
@@ -124,7 +122,7 @@ const Carousel = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className={styles.cardWrapper}>
+            <div className={styles.cardWrapper} id="5">
               <div className={styles.imgeContainer}></div>
               <h2 className={styles.cardheading}>Jane Cooper</h2>
               <p className={styles.cardposition}>Ceo of Hunt</p>

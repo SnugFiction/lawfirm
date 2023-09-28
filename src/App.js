@@ -3,9 +3,10 @@ import Areaofpractice from "./Components/Areaofpractice/Areaofpractice";
 import Carousel from "./Components/Carousel/Carousel";
 import Header from "./Components/Header/Header";
 import Heroarea from "./Components/Heroarea/Heroarea";
+import Our from "./Components/Our/Our";
 import Ourself from "./Components/Ourself/Ourself";
 import Why from "./Components/Why/Why";
-
+//180 faq top
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,9 @@ function App() {
        </div>
        <div className="Section5">
         <Carousel/>
+       </div>
+       <div className="Section6">
+            <Our/>
        </div>
     </div>
   );
