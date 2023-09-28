@@ -5,7 +5,7 @@ import Card from '../Card/Card'
 const Why = () => {
   return (
      
-    <div>
+    <div className={styles.wholewrapper}>
        <div className={styles.wrapper}>
         <h1 className={styles.heading}>Why Choose us?</h1>
        </div>
@@ -13,7 +13,6 @@ const Why = () => {
         <Card sucessRate="97"/>
         <Card sucessRate="100"/>
         <Card sucessRate="100"/>
-
        </div>
     </div>
   )

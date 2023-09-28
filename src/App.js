@@ -1,4 +1,5 @@
 import "./App.css";
+import Areaofpractice from "./Components/Areaofpractice/Areaofpractice";
 import Header from "./Components/Header/Header";
 import Heroarea from "./Components/Heroarea/Heroarea";
 import Ourself from "./Components/Ourself/Ourself";
@@ -16,6 +17,9 @@ function App() {
       </div>
        <div className="Section3">
         <Why/>
+       </div>
+       <div className="Section4">
+         <Areaofpractice/>
        </div>
     </div>
   );

@@ -1,6 +1,10 @@
 .wrapper{
     display: flex;
     align-items: center;
+    max-width: 1132px;
+    margin: 0 auto;
+
+
 }
 .subwrapper{
     flex:1;

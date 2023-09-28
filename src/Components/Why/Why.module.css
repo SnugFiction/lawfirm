@@ -1,6 +1,7 @@
 .wrapper{
     display: flex;
     justify-content: center;
+
 }
 .heading{
     font-size: 54px;
@@ -10,4 +11,9 @@
     display: flex;
     justify-content: space-around;
     gap:31px;
+}
+.wholewrapper{
+    max-width: 1132px;
+    margin: 0 auto;
+
 }

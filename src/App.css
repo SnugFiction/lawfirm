@@ -1,19 +1,21 @@
 .Section1{
     background-color: black;
     padding-top: 63px;
-    padding-left: 153px;
-    padding-right: 153px;
     padding-bottom: 289.29px;
+    width: 100%;
 }
 
 .Section2{
-    padding-left: 153px;
-    padding-right: 153px;
     padding-top: 75px;
+    width: 100%;
 }
 
 .Section3{
-    padding-left: 153px;
-    padding-right: 153px;
     margin-top: 186px;
+    width: 100%;
+}
+
+.Section4{
+    width: 100%;
+    margin-top: 179px;
 }
