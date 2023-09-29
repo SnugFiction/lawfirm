@@ -49,5 +49,10 @@
 font-size: 14px;
 font-weight: 400;
 line-height: 20px;
-word-wrap: break-word
+word-wrap: break-word;
+margin-right: 25px;
+}
+
+.copyrightwrapper li:last-child{
+    margin-right: 0px;
 }
