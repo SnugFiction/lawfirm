@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Faq.module.css";
+import BasicAccordion from "./Accordian";
 
 const Faq = () => {
   return (
@@ -24,7 +25,7 @@ const Faq = () => {
             mollit non deserunt <br /> ullamco est sit aliqua dolor do amet sint. Velit
             officia <br />consequatduis enim velit mollit Exer.
           </p>
-          
+          <BasicAccordion/>
         </div>
       </div>
     </div>
