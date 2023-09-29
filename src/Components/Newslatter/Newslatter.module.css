@@ -1,0 +1,61 @@
+.wrapper{
+    max-width: 1245px;
+    margin: 0 auto;
+    background-color: #47474780;
+}
+
+.heading{
+    padding-top: 93px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 75.35px;
+}
+
+.btnwrappers{
+    margin-top: 42px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    padding-bottom: 93px;
+}
+
+.name{
+    width: 276px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.name::placeholder{
+    font-size: 14px;
+    font-style: italic;
+    color: #818181;
+    padding-left: 23px;
+}
+
+.email{
+    width: 276px;
+    outline: none;
+    border: none;
+
+}
+
+.email::placeholder{
+    font-size: 14px;
+    font-style: italic;
+    color: #818181;
+    padding-left: 23px;
+}
+
+
+
+
+.send{
+    border-radius: 0;
+    height: 53px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}

@@ -4,6 +4,7 @@ import Carousel from "./Components/Carousel/Carousel";
 import Faq from "./Components/Faq/Faq";
 import Header from "./Components/Header/Header";
 import Heroarea from "./Components/Heroarea/Heroarea";
+import Newslatter from "./Components/Newslatter/Newslatter";
 import Our from "./Components/Our/Our";
 import Ourself from "./Components/Ourself/Ourself";
 import Why from "./Components/Why/Why";
@@ -32,6 +33,9 @@ function App() {
        </div>
        <div className="Section7">
         <Faq/>
+       </div>
+       <div className="Section8">
+        <Newslatter/>
        </div>
     </div>
   );
